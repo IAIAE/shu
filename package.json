@@ -1,0 +1,39 @@
+{
+  "name": "kai",
+  "version": "0.0.1",
+  "description": "a code generator used with ui interface(maybe)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"no test now, sorry~\"",
+    "start": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAIAE/kai.git"
+  },
+  "keywords": [
+    "design",
+    "generator"
+  ],
+  "author": "IAIAE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IAIAE/kai/issues"
+  },
+  "homepage": "https://github.com/IAIAE/kai#readme",
+  "dependencies": {
+    "babel-generator": "^6.26.0",
+    "babylon": "^6.18.0",
+    "babylon-walker": "0.0.1",
+    "praan": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelrc-rollup": "^3.0.0",
+    "rollup": "^0.41.1",
+    "rollup-plugin-babel": "^3.0.1"
+  }
+}
